@@ -1,0 +1,109 @@
+/* buttons */
+input[type="file"] {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: rgba(31, 184, 255, 0.781);
+  cursor: pointer;
+}
+.main-button {
+  padding: 10px 20px;
+  background-color: rgb(159, 85, 243);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.sub-button{
+  padding: 7px 20px;
+  background-color: rgb(12, 35, 99);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+}
+
+.cancel-button{
+  padding: 7px 20px;
+  background-color: rgb(216, 17, 17);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.pdf-page {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  gap: 15px;
+}
+
+.pdf-button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(21, 226, 216);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.pdf-button:hover {
+  background-color: #083c42;
+}
+
+
+.pdf-preview-container {
+  height: 750px;    
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+}
+.pdf-navigation span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.topic{
+ color:blue;
+}
+
+.container {
+  display: flex;         
+  height: 90vh;        
+}
+
+.left {
+  flex: 1;               
+  background-color: rgb(216, 221, 224);
+  padding: 20px;
+}
+
+.right {
+  flex: 3;              
+  background-color: rgb(10, 59, 99);
+  padding: 10px;
+
+}
+span {
+  color: white;
+}
+input{
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #9e9c9c;
+}

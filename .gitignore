@@ -1,0 +1,56 @@
+# ==========================
+# Node / React
+# ==========================
+node_modules/
+build/
+dist/
+.env
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+
+# ==========================
+# ASP.NET Core / .NET
+# ==========================
+bin/
+obj/
+*.user
+*.suo
+*.vs
+*.log
+appsettings.Development.json
+appsettings.Local.json
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# ==========================
+# Visual Studio / IDE
+# ==========================
+.vscode/
+*.code-workspace
+*.sln
+*.csproj.user
+*.userprefs
+
+# ==========================
+# MacOS
+# ==========================
+*.DS_Store
+
+# ==========================
+# Optional / Temporary
+# ==========================
+*.tmp
+*.bak
+*.swp
+*.bin
+*.log
+
+# ==========================
+# Test / Coverage
+# ==========================
+coverage/
+*.coverage
+*.nyc_output/
